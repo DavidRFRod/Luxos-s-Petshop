@@ -73,5 +73,6 @@ routes.post('/employees', employessController.create);
 routes.get('/employees/:employees_id', employessController.show);
 routes.get('/clients/:clients_id', clientsController.show);
 routes.get('/clients/', clientsController.show);
+routes.get('/users/', usersController.show);
 
 export default routes;
